@@ -1,0 +1,6 @@
+get the data from external api https://jsonmock.hackerrank.com/api/inventory 
+
+store this data into local Mongodb instace
+
+build rest api to access mongo data
+
