@@ -1,0 +1,11 @@
+Controller (trigger sync)
+   ↓
+Service (pagination orchestration)
+   ↓
+External API Client (WebClient)
+   ↓
+DTOs (API contract)
+   ↓
+Mapper (DTO --> Entity)
+   ↓
+Repository (MongoDB)
