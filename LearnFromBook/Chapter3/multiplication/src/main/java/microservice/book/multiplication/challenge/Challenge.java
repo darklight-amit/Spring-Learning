@@ -1,3 +1,7 @@
+/**
+ * This class represents a Challenge to solve a Multiplication (a * b).
+ */
+
 package microservice.book.multiplication.challenge;
 
 import lombok.*;

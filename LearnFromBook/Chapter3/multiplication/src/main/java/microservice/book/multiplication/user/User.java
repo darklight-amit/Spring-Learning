@@ -1,3 +1,7 @@
+/**
+ * Stores information to identify the user.
+ */
+
 package microservice.book.multiplication.user;
 
 import lombok.*;
