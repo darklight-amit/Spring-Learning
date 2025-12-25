@@ -7,7 +7,7 @@ import static org.assertj.core.api.BDDAssertions.then;
 
 public class ChallangeServiceTest{
 
-
+    private ChallengeService challengeService;
 
 
 }
