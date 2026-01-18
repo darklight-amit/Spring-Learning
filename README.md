@@ -12,3 +12,7 @@ kafka-topics \
 --partitions 6 \
 --replication-factor 1
 
+# point java_home to correct java lib
+
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+export PATH=$JAVA_HOME/bin:$PATH
