@@ -1,17 +1,16 @@
+server:
+  port: 8080
+
 spring:
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: kafka:9092
 
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
 
     consumer:
-      group-id: payment-service
+      group-id: payment-group
       auto-offset-reset: earliest
-      enable-auto-commit: false
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-
-    listener:
-      ack-mode: manual
